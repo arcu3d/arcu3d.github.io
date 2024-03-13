@@ -9,12 +9,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            flex-direction: column;
         }
 
         h1 {
             text-align: center;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 10px 0;
         }
     </style>
 </head>
@@ -23,5 +33,8 @@
         <h1>This is Arcu3D Inc. official website</h1>
         <img src="logo.png" alt="Arcu3D Inc. Logo">
     </div>
+    <footer>
+        <a href="privacy_policy.html">Privacy Policy</a>
+    </footer>
 </body>
 </html>
